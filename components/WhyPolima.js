@@ -15,12 +15,12 @@ const WhyPolima = () => {
                     <p className='text-sm text-center sm:text-start w-3/4 text-black'>We are dedicated to sustainability and ethical sourcing practices. Our rice and flour are sourced from farms and suppliers that prioritize environmental stewardship and responsible farming methods. By choosing Polima Foods, you support eco-friendly practices and contribute to a more sustainable future.</p>
                 </div>
                 <div className='h-48 flex flex-col items-center sm:items-start'>
-                    <h2 className='pb-[20px] text-red-600 font-semibold'>Sustainable Sourcing</h2>
-                    <p className='text-sm text-center sm:text-start w-3/4 text-black'>We are dedicated to sustainability and ethical sourcing practices. Our rice and flour are sourced from farms and suppliers that prioritize environmental stewardship and responsible farming methods. By choosing Polima Foods, you support eco-friendly practices and contribute to a more sustainable future.</p>
+                    <h2 className='pb-[20px] text-red-600 font-semibold'>Exceptional Customer Service</h2>
+                    <p className='text-sm text-center sm:text-start w-3/4 text-black'>Our team is passionate about providing outstanding customer service. From answering your inquiries to resolving any issues, we are here to support you every step of the way. We value your business and strive to exceed your expectations with personalized attention and prompt assistance.</p>
                 </div>
                 <div className='h-48 flex flex-col items-center sm:items-start'>
-                    <h2 className='pb-[20px] text-red-600 font-semibold'>Sustainable Sourcing</h2>
-                    <p className='text-sm text-center sm:text-start w-3/4 text-black'>We are dedicated to sustainability and ethical sourcing practices. Our rice and flour are sourced from farms and suppliers that prioritize environmental stewardship and responsible farming methods. By choosing Polima Foods, you support eco-friendly practices and contribute to a more sustainable future.</p>
+                    <h2 className='pb-[20px] text-red-600 font-semibold'>Trust and Reliability</h2>
+                    <p className='text-sm text-center sm:text-start w-3/4 text-black'>With years of experience in the industry, Polima Foods is a name you can trust. Our proven track record of reliability and integrity means you can depend on us for consistent quality and dependable service.</p>
                 </div>
             </div>
         </div>
