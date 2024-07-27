@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Hero from '@components/Hero'
 import BottomCTA from "@components/BottomCTA";
-import Testimonials from "@components/Testimonials";
 import FAQ from '@components/FAQ'
-import Features from '@components/Features'
-import UseCases from '@components/UseCases'
 import Products from '@components/Products'
+import About from '@components/About'
+import WhyPolima from "@components/WhyPolima";
 
 export default function Home() {
   return (
@@ -13,11 +12,10 @@ export default function Home() {
       <main>
         <Hero />
       </main>
+      <About />
       <Products />
-      <UseCases />
-      <Features />
+      <WhyPolima />
       <FAQ />
-      <Testimonials />
       <BottomCTA />
     </>
   );
