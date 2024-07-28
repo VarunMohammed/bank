@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const WhyPolima = () => {
+const Promise = () => {
     return(
         <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col'>
             <div className='flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-end justify-between pb-[60px]'>
@@ -27,4 +27,4 @@ const WhyPolima = () => {
     )
 }
 
-export default WhyPolima
+export default Promise

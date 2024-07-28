@@ -1,7 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion, useScroll } from "framer-motion"
 
 const Hero = () => {
+    const { scrollYProgress } = useScroll();
+
     return(
         <div className='bg-white px-[16px] md:px-[162px] flex flex-col pt-40 lg:pt-0 lg:flex-row items-center h-auto lg:h-screen gap-14 md:gap-0'>
             <div className='flex flex-col items-center lg:items-start gap-5 md:gap-10 justify-center md:pb-10'> 
@@ -17,10 +20,10 @@ const Hero = () => {
                     </div>
                 </Link>
             </div>
-            <div>
+            <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
                 <Image src='/polimahero.png' alt='logo' width={700} height={700} className='hidden md:flex cursor-pointer' />
                 <Image src='/polimahero.png' alt='logo' width={300} height={500} className='md:hidden cursor-pointer' />
-            </div>
+            </motion.div>
         </div>
     )
 }
