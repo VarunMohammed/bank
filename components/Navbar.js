@@ -28,7 +28,7 @@ const Navbar = () => {
     const pathname = usePathname();
 
     return (
-        <div className='fixed  bg-white w-screen lg:w-screen h-[80px] px-[32px] py-[20px] lg:px-12 border'>
+        <div className='fixed bg-white w-screen lg:w-screen h-[80px] px-[32px] py-[20px] lg:px-12 border'>
             <div className='navcontent flex flex-row items-center h-full justify-center md:justify-between'>
                 <Link href='/'>
                     <div className='flex flex-row items-center sm:gap-2 gap-1'>
