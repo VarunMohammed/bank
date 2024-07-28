@@ -28,8 +28,8 @@ const Navbar = () => {
     const pathname = usePathname();
 
     return (
-        <div className='fixed top-10 left-4 md:left-0 md:top-0 right-4 lg:top-0 lg:left-0 lg:right-0 bg-white w-[calc(100%-2rem)] md:w-screen lg:w-screen h-[80px] px-[32px] py-[20px] lg:px-12 border rounded-xl md:rounded-[0px]'>
-            <div className='navcontent flex flex-row items-center h-full justify-between'>
+        <div className='fixed  bg-white w-screen lg:w-screen h-[80px] px-[32px] py-[20px] lg:px-12 border'>
+            <div className='navcontent flex flex-row items-center h-full justify-center md:justify-between'>
                 <Link href='/'>
                     <div className='flex flex-row items-center sm:gap-2 gap-1'>
                         <Image src='/PolimaLogo.png' alt='logo' width={120} height={40} className='cursor-pointer' />
@@ -55,7 +55,7 @@ const Navbar = () => {
                         <p className='text-white tracking-tight'>Contact Us</p>
                     </div>
                 </div>
-                <div className='md:hidden border py-1.5 px-3 rounded-2xl'>
+                <div className='hidden border py-1.5 px-3 rounded-2xl'>
                     <Menu color='#FF0000'/>
                 </div>
             </div>

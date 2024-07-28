@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 const About = () => {
     return(
-        <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col gap-5 pb-12 items-center sm:items-start'>
-            <div className='flex flex-col gap-2 items-center sm:items-start'>
-                <h1 className='text-4xl text-black font-semibold'>Who <span className='text-red-600'>We </span>Are</h1>
-                <p className='text-gray-700 text-center sm:text-start'>Polima Foods is a trusted provider of high-quality rice and flour, committed to nourishing families and communities with our premium products. Our dedication to quality starts from selecting the finest raw materials and continues through every stage of production, ensuring that what reaches your table is nothing short of excellence. We believe in sustainable practices and are committed to reducing our environmental footprint, making our products as kind to the planet as they are to your body.</p>
+        <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col gap-5 pb-12 items-center lg:items-start'>
+            <div className='flex flex-col gap-2 items-center lg:items-start'>
+                <h1 className='text-4xl text-black font-semibold text-center lg:text-start'>Experience the Heart of <span className='text-red-600'>Kerala</span></h1>
+                <p className='text-gray-700 text-center lg:text-start w-full lg:w-3/4'>At Polima, we are commited to delivering the finest quality Kerala Matta Rice. Every grain is a tribute to the lush fields of our homeland and the hardworking farmers who nurture it. Whether you are in Kerala or anywhere else in thee world, let Polima bring you the comforting taste of home.</p>
             </div>
             <Link href='/about'>
                 <div className='w-32 bg-red-600 rounded-[82px] px-[20px] py-[14px] flex items-center justify-center'>

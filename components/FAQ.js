@@ -2,8 +2,8 @@ const FAQ = () => {
     return(
         <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col'>
             <div className='flex flex-col items-center lg:items-start gap-3 pb-10'>
-                <h1 className='text-4xl font-semibold tracking-tight text-black'><span className='text-red-600'>Frequently</span> Asked Questions</h1>
-                <p className='text-center lg:text-start text-gray-900'>Still you have any questions? Contact our Team via support@yourbank.com</p>
+                <h1 className='text-4xl font-semibold tracking-tight text-black text-center md:text-start'><span className='text-red-600'>Frequently</span> Asked Questions</h1>
+                <p className='text-center lg:text-start text-gray-900'>Still you have any questions? Contact our Team via info@polimarice.com</p>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-[30px] mb-20'>
                 <div className='bg-white border hover:border-black hover:border-opacity-40 w-auto rounded-lg p-[50px]'>

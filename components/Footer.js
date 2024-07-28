@@ -39,7 +39,7 @@ const Footer = () => {
                     })
                 }
             </div>
-            <div className='bg-red-400 w-full h-[1px] my-[30px] sm:my-[50px]'></div>
+            <div className='bg-gray-300 w-full h-[1px] my-[30px] sm:my-[50px]'></div>
             <div className='flex flex-col sm:flex-row items-center sm:items-start gap-5'>
                 <div className='flex flex-row gap-1'>
                     <Mail color='#FF0000' className='h-[18px]'/>
@@ -54,7 +54,7 @@ const Footer = () => {
                     <p className='text-sm text-black'>Angamaly</p>
                 </div>
             </div>
-            <div className='bg-red-400 w-full h-[1px] my-[30px] sm:my-[50px]'></div>
+            <div className='bg-gray-300 w-full h-[1px] my-[30px] sm:my-[50px]'></div>
             <div className='flex flex-col sm:flex-row items-center justify-between bg-red-600 w-full gap-4 h-auto sm:h-[84px] rounded-xl sm:rounded-[100px] py-10 pl-[16px] pr-[24px]'>
                 <div className='flex flex-row gap-3'>
                     <Link href='https://www.facebook.com'>
