@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from '@components/Navbar';
 import Footer from '@components/Footer';
 import Image from 'next/image'
+import AnimatedCursor from "react-animated-cursor"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <AnimatedCursor />
         <Navbar />
         {children}
         <Footer />
