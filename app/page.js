@@ -22,9 +22,9 @@ export default function Home() {
 
   return (
     <>
-      <main>
+      <main className=''>
         <Hero />
-        <About />
+        <About id='about'/>
         <Promise />
         <BottomCTA />
       </main>

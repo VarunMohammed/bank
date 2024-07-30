@@ -12,9 +12,9 @@ const Hero = () => {
                     <Image src='/check.png' alt='logo' width={20} height={20} className='cursor-pointer' />
                     <p className='text-sm tracking-tight'>Some Heading</p>
                 </div>*/}
-                <h1 className='font-semibold text-4xl md:text-5xl text-center lg:w-2/4 text-white opacity-90'>Welcome to <span className='text-red-600 opacity-100'>Polima </span><br/>Where the taste of Kerala is brought to life in every grain</h1>
+                <h1 className='font-semibold text-4xl md:text-5xl text-center lg:w-2/4 text-white opacity-90 backdrop-blur-0'>Welcome to <span className='text-red-600 opacity-100 bg-black px-3 bg-opacity-50 rounded backdrop-blur-sm'>Polima </span><br/>Where the taste of Kerala is brought to life in every grain</h1>
                 <p className='lg:w-3/4 text-center leading-snug text-slate-100'>We specialize in Kerala Matta Rice, cultivated with love and tradition. For Malayalis around the world, our rice is more than just food - it is a journey back to the warmth of our homes, a celebration of our rich heritage, and a promise of health and flavor in every bite.</p>
-                <Link href='/products'>
+                <Link href='about'>
                     <div className='bg-black rounded-[82px] px-[20px] py-[14px] flex items-center justify-center backdrop-blur-md opacity-80 border border-red-500'>
                         <p className='text-white tracking-tight'>Explore Products</p>
                     </div>

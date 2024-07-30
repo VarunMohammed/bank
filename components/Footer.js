@@ -57,27 +57,25 @@ const Footer = () => {
             <div className='bg-gray-300 w-full h-[1px] my-[30px] sm:my-[50px]'></div>
             <div className='flex flex-col sm:flex-row items-center justify-between bg-red-600 w-full gap-4 h-auto sm:h-[84px] rounded-xl sm:rounded-[100px] py-10 pl-[16px] pr-[24px]'>
                 <div className='flex flex-row gap-3'>
-                    <Link href='https://www.facebook.com'>
-                        <div className='h-[48px] w-[48px] bg-white rounded-full flex items-center justify-center'>
+                    <div className='h-[48px] w-[48px] bg-white rounded-full flex items-center justify-center'>
+                        <Link href='https://www.facebook.com'>
                             <Image src='/facebook.png' alt='facebook' width={25} height={25}/>
-                        </div>
-                    </Link>
-                    <Link href='https://www.x.com'>
-                        <div className='h-[48px] w-[48px] bg-white rounded-full flex items-center justify-center'>
+                        </Link>
+                    </div>
+                    <div className='h-[48px] w-[48px] bg-white rounded-full flex items-center justify-center'>
+                        <Link href='https://www.x.com'>
                             <Image src='/x.png' alt='X' width={25} height={25}/>
-                        </div>
-                    </Link>
-                    <Link href='https://www.linkedin.com'>
-                        <div className='h-[48px] w-[48px] bg-white rounded-full flex items-center justify-center'>
+                        </Link>
+                    </div>
+                    <div className='h-[48px] w-[48px] bg-white rounded-full flex items-center justify-center'>
+                        <Link href='https://www.linkedin.com'>
                             <Image src='/linkedin.png' alt='LinkedIn' width={30} height={30}/>
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
                 </div>
-                <p className='text-sm tracking-tight text-white'>Polima Foods. All Rights Reserved</p>
-                <div className='flex flex-row gap-2'>
-                    <p className='text-sm tracking-tight text-white cursor-pointer'>Privacy Policy</p>
-                    <p className='text-sm tracking-tight text-black'>|</p>
-                    <p className='text-sm tracking-tight text-white cursor-pointer'>Terms of Service</p>
+                <p className='text-sm tracking-tight text-white'>Pallickal Agro Mills. All Rights Reserved</p>
+                <div className='flex flex-row gap-2 px-16'>
+
                 </div>
             </div>
         </div>

@@ -1,18 +1,25 @@
 import Link from 'next/link'
 import { motion, useScroll } from "framer-motion"
+import Image from "next/image";
 
 const About = () => {
     return(
-        <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col gap-5 pb-12 items-center lg:items-start'>
+        <div className='bg-white px-[16px] md:px-[162px] pt-16 lg:pt-32 flex flex-col gap-8 pb-12 items-center lg:items-start'>
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 0.5}} className='flex flex-col gap-2 items-center lg:items-start'>
-                <h1 className='text-4xl text-black font-semibold text-center lg:text-start'>Experience the Heart of <span className='text-red-600'>Kerala</span></h1>
-                <p className='text-gray-700 text-center lg:text-start w-full lg:w-3/4'>At Polima, we are commited to delivering the finest quality Kerala Matta Rice. Every grain is a tribute to the lush fields of our homeland and the hardworking farmers who nurture it. Whether you are in Kerala or anywhere else in thee world, let Polima bring you the comforting taste of home.</p>
+                <h2 className='text-4xl lg:text-9xl text-black font-semibold text-center lg:text-start'>Experience the Heart of <span className='text-red-600'>Kerala</span></h2>
+                <p className='text-gray-700 text-center lg:text-xl lg:text-start w-full lg:w-5/6'>At Polima, we are commited to delivering the finest quality Kerala Matta Rice. Every grain is a tribute to the lush fields of our homeland and the hardworking farmers who nurture it. Whether you are in Kerala or anywhere else in thee world, let Polima bring you the comforting taste of home.</p>
             </motion.div>
             <Link href='/about'>
-                <div className='w-32 bg-red-600 rounded-[82px] px-[20px] py-[14px] flex items-center justify-center'>
+                <div className='w-32 bg-black border border-red-500 rounded-[82px] px-[20px] py-[12px] flex items-center justify-center'>
                     <p className='text-white tracking-tight'>Know More</p>
                 </div>
             </Link>
+            <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-10 w-full pt-12'>
+                <Image src='/paddy.jpg' alt='paddy' width={200} height={50} className='w-full'/>
+                <Image src='/paddy.jpg' alt='paddy' width={200} height={50} className='w-full'/>
+                <Image src='/paddy.jpg' alt='paddy' width={200} height={50} className='w-full'/>
+                <Image src='/paddy.jpg' alt='paddy' width={200} height={50} className='w-full'/>
+            </div>
         </div>
     )
 }

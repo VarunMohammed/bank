@@ -35,12 +35,12 @@ const Navbar = () => {
                 <div className='h-4 w-4 md:hidden'>
 
                 </div>
-                <Link href='/'>
                     <div className='flex flex-row items-center sm:gap-2 gap-1'>
-                        <Image src='/PolimaLogo.png' alt='logo' width={120} height={40} className='cursor-pointer' />
+                        <Link href='/'>
+                            <Image src='/PolimaLogo.png' alt='logo' width={120} height={40} className='cursor-pointer' />
+                        </Link>
                         {/*<h1 className='tracking-tight text-2xl cursor-pointer text-red-600 font-semibold hover:text-neon-green'>POLIMA FOODS</h1>*/}
                     </div>
-                </Link>
                 <div className='hidden sm:hidden md:flex flex-row gap-5 bg-black bg-opacity-60 border border-red-600 border-opacity-30 px-8 py-3 rounded-3xl backdrop-blur-md'>
                 {
                     navLinks.map((link) => {
