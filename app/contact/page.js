@@ -1,6 +1,6 @@
 export default function ContactPage() {
     return(
-        <div className='bg-white px-[16px] md:px-[162px] pt-36 flex flex-col h-screen justify-center'>
+        <div className='bg-white px-[16px] md:px-[162px] pt-36 flex flex-col h-screen justify-center overflow-hidden'>
             <div className='flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-end justify-between pb-[60px]'>
                 <div className='flex flex-col gap-2 items-center lg:items-start lg:w-3/4'>
                     <h1 className='font-semibold text-4xl text-black'>Contact <span className='text-red-600'>Us</span></h1>

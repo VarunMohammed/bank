@@ -2,7 +2,7 @@ import BottomCTA from "@components/BottomCTA";
 
 export default function AboutPage() {
     return(
-        <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col'>
+        <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col overflow-hidden'>
             <main className='pt-20'>
                 <div className='flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-end justify-between pb-[60px]'>
                     <div className='flex flex-col gap-2 items-center lg:items-start lg:w-5/6'>
