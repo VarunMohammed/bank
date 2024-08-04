@@ -78,7 +78,7 @@ const Navbar = () => {
                             const isActive = pathname === link.linkDestination;
                             const linkStyle = isActive ? 'text-red-600 font-semibold' : 'text-white font-light';
                             return (
-                                <Link key={link.linkTitle} href={link.linkDestination}>
+                                <Link key={link.linkTitle} href={link.linkDestination} onClick={toggleMobileNav}>
                                     <p className={`${linkStyle} text-xl hover:text-red-600`}>{link.linkTitle}</p>
                                 </Link>
                             );
