@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const BottomCTA = () => {
     return (
-        <div className='w-screen h-auto bg-white px-[16px] sm:px-[16px] md:px-[26px] lg:px-[162px] flex items-center justify-center py-[80px]'>
+        <div className='w-screen h-auto bg-white px-[16px] sm:px-[16px] md:px-[26px] lg:px-[120px] flex items-center justify-center py-[80px]'>
             <div className='h-3/4 w-full border border-red-500 border-opacity-75 flex sm:flex-col md:flex-col flex-col lg:flex-row gap-6 py-[30px] px-[0px] sm:p-[80px] items-center justify-between rounded-3xl'>
                 <div className='flex flex-col gap-4 w-3/4'>
                     <h2 className='text-4xl text-black text-center lg:text-start font-light'>

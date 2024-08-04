@@ -23,7 +23,7 @@ const navLinks = [
 
 const Footer = () => {
     return(
-        <div className='w-full h-auto bg-white flex flex-col items-center px-[16px] sm:px-[16px] md:px-[26px] lg:px-[162px] pt-[30px] sm:pt-[100px] pb-[30px] sm:pb-[50px] border border-t-[2px] border-l-[0px] border-r-[0px]'>
+        <div className='w-full h-auto bg-white flex flex-col items-center px-[16px] sm:px-[16px] md:px-[26px] lg:px-[120px] pt-[30px] sm:pt-[100px] pb-[30px] sm:pb-[50px] border border-t-[2px] border-l-[0px] border-r-[0px]'>
             <div className='flex flex-row gap-1 items-center'>
                 <Image src='/PolimaLogo.png' alt='logo' width={150} height={40} className='cursor-pointer' />
                 {/*<h1 className='tracking-tight text-2xl cursor-pointer text-red-600 font-semibold hover:text-black'>POLIMA FOODS</h1>*/}

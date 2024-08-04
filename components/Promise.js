@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Promise = () => {
     return(
-        <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col'>
+        <div className='bg-white px-[16px] md:px-[120px] pt-12 flex flex-col'>
             <div className='flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-end justify-between pb-[60px]'>
                 <div className='flex flex-col gap-2 items-center lg:items-start lg:w-3/4'>
                     <h2 className='text-4xl lg:text-5xl xl:text-6xl text-black font-semibold text-center lg:text-start'>Our <span className='text-red-600'>Promise</span></h2>
