@@ -33,6 +33,7 @@ const Navbar = () => {
     const pathname = usePathname();
     const [mobileNav, setMobileNav] = useState(false)
     const bgStyle = mobileNav ? 'flex' : 'hidden'
+    const navEnable = mobileNav ? 'hidden' : 'flex'
 
     const toggleMobileNav = () => {
         setMobileNav(!mobileNav)
@@ -40,7 +41,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='fixed w-screen h-[80px] px-[32px] py-[20px] lg:px-12 bg-transparent bg-opacity-40 z-10'>
+            <div className={`fixed w-screen h-[80px] px-[32px] py-[20px] lg:px-12 bg-transparent bg-opacity-40 z-10 overflow-hidden`}>
                 <div className='navcontent flex flex-row items-center h-full justify-between md:justify-between'>
                     <div className='h-4 w-4 md:hidden'>
 
@@ -70,8 +71,8 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${bgStyle} transition-all duration-150 ease-in-out h-screen w-screen bg-herobg bg-left-bottom`}>
-                <div className='bg-black filter-blur-xl bg-opacity-60 h-screen w-screen flex flex-col items-center justify-center gap-8'>
+            <div className={`${bgStyle} md:hidden top-0 left-0 transition-all duration-150 ease-in-out h-screen w-screen bg-herobg bg-left-bottom`}>
+                <div className='bg-black filter-blur-xl bg-opacity-75 h-screen w-screen flex flex-col items-center justify-center gap-8'>
                     {
                         navLinks.map((link) => {
                             const isActive = pathname === link.linkDestination;
