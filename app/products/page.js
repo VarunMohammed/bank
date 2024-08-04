@@ -10,7 +10,6 @@ export default function ProductPage() {
                 <img src='paddy.jpg' alt='paddy' className='lg:hidden'/>
             </main>
             <ProductsSection />
-            <Process />
             <ProductsBottomCTA />
         </div>
     )

@@ -20,6 +20,10 @@ const navLinks = [
         'linkDestination': '/about'
     },
     {
+        'linkTitle': 'Contact',
+        'linkDestination': '/contact'
+    },
+    {
         'linkTitle': 'Private Labelling',
         'linkDestination': '/private-labelling'
     },

@@ -9,7 +9,7 @@ const ProductsSection = () => {
                     <p className='text-center lg:text-start text-gray-900'>Explore our selection of premium rice and flour products, crafted with care to bring quality and nutrition to your table.</p>
                 </div>
             </div>
-            <div className='grid gdir-cols-1 lg:grid-cols-2 gap-16'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
                 <div className='flex flex-col items-center lg:items-start gap-3'>
                     <Image src='/polimahero.png' alt='logo' width={150} height={300} className='cursor-pointer' />
                     <h2 className='text-red-600 tracking-tight text-xl font-semibold'>Polima Palakadan Matta Short Grain (Unda)</h2>

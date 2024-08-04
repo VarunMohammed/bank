@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-row gap-1'>
                     <Phone color='#FF0000' className='h-[18px]'/>
-                    <p className='text-sm text-black'>+91 98765 43210</p>
+                    <p className='text-sm text-black'>+91 73060 68897</p>
                 </div>
                 <div className='flex flex-row gap-1'>
                     <MapPin color='#FF0000' className='h-[18px]'/>
@@ -74,9 +74,6 @@ const Footer = () => {
                     </div>
                 </div>
                 <p className='text-sm tracking-tight text-white'>Pallickal Agro Mills. All Rights Reserved</p>
-                <div className='flex flex-row gap-2 px-16'>
-
-                </div>
             </div>
         </div>
     )
