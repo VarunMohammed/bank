@@ -5,14 +5,14 @@ export default function AboutPage() {
         <div className='bg-white px-[16px] md:px-[162px] pt-12 flex flex-col'>
             <main className='pt-20'>
                 <div className='flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-end justify-between pb-[60px]'>
-                    <div className='flex flex-col gap-2 items-center lg:items-start lg:w-3/4'>
+                    <div className='flex flex-col gap-2 items-center lg:items-start lg:w-5/6'>
                         <h1 className='font-semibold text-4xl text-black'>About <span className='text-red-600'>Us</span></h1>
                         <p className='text-center lg:text-start text-gray-900 tracking-tight'>Founded in 1998, Polima, under the parent company Pallickal Agro Mills, has been a cherished name in the rice manufacturing industry. Our journey started in the lush, green fields of Kerala, with a vision to bring the genuine taste of Kerala Matta rice to families across the globe. Every grain we produce is a tribute to the land we call home and the hardworking farmers who nurture it.</p>
                     </div>
                 </div>
             </main>
             <div className='flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-end justify-between pb-[60px]'>
-                <div className='flex flex-col gap-2 items-center lg:items-start lg:w-3/4'>
+                <div className='flex flex-col gap-2 items-center lg:items-start lg:w-5/6'>
                     <h1 className='font-semibold text-4xl text-black'>Our <span className='text-red-600'>Mission</span></h1>
                     <p className='text-center lg:text-start text-gray-900 tracking-tight'>At Polima, our mission is to bring the warmth and richness of Kerala’s agricultural traditions to your table. We are committed to sustainable farming practices that honor our land and our people. Our goal is to provide you with rice that is not only nutritious and delicious but also a testament to our commitment to quality and tradition.</p>
                 </div>

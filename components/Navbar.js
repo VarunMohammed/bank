@@ -58,13 +58,6 @@ const Navbar = () => {
                     })
                  }
                 </div>
-
-                <div className='hidden sm:hidden md:flex flex-row items-center gap-4'>
-                    {/*<p>Sign Up</p>*/}
-                    <div className='bg-black bg-opacity-60 border border-red-600 border-opacity-80 py-2 px-4 rounded-3xl backdrop-blur-md'>
-                        <p className='text-white tracking-tight'>Contact Us</p>
-                    </div>
-                </div>
                 <div className='md:hidden py-1.5 px-1'>
                     <Menu color='#FF0000'/>
                 </div>
