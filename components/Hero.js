@@ -6,7 +6,7 @@ const Hero = () => {
     const { scrollYProgress } = useScroll();
 
     return(
-        <div className='bg-herobg bg-bottom bg-no-repeat px-[16px] md:px-[162px] flex flex-col md:pt-40 lg:pt-0 lg:flex-row items-center justify-center h-screen gap-14 md:gap-0'>
+        <div className='bg-herobg bg-left-bottom md:bg-bottom bg-no-repeat px-[16px] md:px-[162px] flex flex-col md:pt-40 lg:pt-0 lg:flex-row items-center justify-center h-screen gap-14 md:gap-0'>
             <div className='flex flex-col items-center gap-5 md:gap-10 justify-center md:pb-10'>
                 {/*<div className='w-[280px] h-[40px] bg-red-600 flex items-center justify-start gap-1 rounded-lg border border-gray-200 px-[16px] py-[8px]'>
                     <Image src='/check.png' alt='logo' width={20} height={20} className='cursor-pointer' />

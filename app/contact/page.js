@@ -14,7 +14,7 @@ export default function ContactPage() {
                 </div>
                 <div className='border border-l-[3px] border-r-[0px] border-t-[0px] border-b-[0px] p-[30px]'>
                     <h2 className='text-red-600 text-xl tracking-tight font-semibold'>Email</h2>
-                    <p className='text-black text-sm tracking-tight'>info@polimarice.com</p>
+                    <p className='text-black text-sm tracking-tight'>enquiry@polimarice.com</p>
                 </div>
                 <div className='border border-l-[3px] border-r-[0px] border-t-[0px] border-b-[0px] p-[30px]'>
                     <h2 className='text-red-600 text-xl tracking-tight font-semibold'>Website</h2>
