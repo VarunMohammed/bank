@@ -12,7 +12,7 @@ const Products = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 xl:grid-cols-3 gap-24 pb-16'>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1}} className='h-36 flex flex-col items-center lg:items-start'>
+                <motion.div className='h-36 flex flex-col items-center lg:items-start'>
                     <Image src='/polimahero.png' alt='icon' width={78} height={78} className='pb-[30px]'/>
                     <h2 className='pb-[20px] text-red-600 font-semibold'>Polima Palakadan Matta Short Grain (Unda)</h2>
                 </motion.div>
